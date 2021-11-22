@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: rgb(221, 224, 224);
+    width: 70vw;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+}
+
+#submit-button, #cancel-button{
+    width: 80px;
+}
+
+#read-container, #form-buttons-container{
+    width: auto;
+}
+
+.title{
+    font-size: 46px;
+    padding: 20px 0px;
+}
+
+.subtitle{
+    font-size: 24px;
+}
+
+.bookCard{
+    background-color: rgb(221, 224, 224);
+    width: 200px;
+    height: 180px;
+    white-space: pre;
+    line-height: 25px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.book-card-btn{
+    width: 90px;
+}
+
+.form-popup{
+    position: fixed;
+    border: 3px solid black;
+    width: 400px;
+    height: 250px;
+    top: 30vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#collection-container-big{
+    min-height: 60vh;
+    background-color: rgb(221, 224, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+#collection-container{
+    padding: 30px 30px;
+    width: 65vw;
+    min-height: 60vh;
+    background-color: white;
+    box-shadow: inset 0px 0px 0px 20px rgb(221, 224, 224);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+#control-container{
+    min-height: 20vh;
+    padding: 10px 0px;
+}
